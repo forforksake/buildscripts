@@ -198,18 +198,9 @@ ccache -M 100G
 # Configure git
 echo -e "\nSetting up Git..."
 
-if [[ $USER == "adithya" ]]; then
-git config --global user.email "gh0strider.2k18.reborn@gmail.com"
-git config --global user.name "Adithya R"
-git config --global review.gerrit.aospa.co.username "ghostrider-reborn"
-git config --global review.review.lineageos.org.username "ghostrider-reborn"
-git config --global review.review.arrowos.net.username "ghostrider_reborn"
-fi
 
-if [[ $USER == "panda" ]]; then
-git config --global user.name "Jyotiraditya Panda"
-git config --global user.email "jyotiraditya@aospa.co"
-fi
+git config --global user.email "sakeforfork@gmail.com"
+git config --global user.name "FFS aka Cardiffian"
 
 git config --global alias.cp 'cherry-pick'
 git config --global alias.c 'commit'
